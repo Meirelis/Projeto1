@@ -31,10 +31,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 .navegacao{
     color: white;
+   
+}
+
+.navegacao span{
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
 }
 
 .creatives{
@@ -42,6 +54,12 @@
     align-items: center;
     justify-content: center;
     color: white;
+    flex-direction: column;
+}
+
+.creatives img{
+    margin-top: 30px;
+    height: 100px;
 }
 
 
@@ -70,7 +88,7 @@
 }
 
 .verde{
-    background-color: rgb(70, 172, 129);
+    background-color: rgb(99, 196, 155);
     width: 980px;
     height: 250px;
 }
@@ -80,11 +98,84 @@
     width: 980px;
     height: 250px;
     background-color: rgb(0, 217, 255);
-    color: rgb(10, 116, 6);;
+    color: rgb(10, 116, 6);
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.pessoa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.blue{
+    background-color: rgb(0, 217, 255);
+    width: 980px;
+    height: 350px;
+}
+
+.yellow{
+    background-color: yellow;
+    width: 980px;
+    height: 350px;
+}
+
+.red{
+    background-color: rgb(245, 88, 88);
+    width: 980px;
+    height: 350px;
+}
+
+.rodape{
+    background-color: rgb(99, 196, 155);
+    color: rgb(4, 80, 4);
+    padding: 50px;
+}
+
+.rodape h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    
 }
 
